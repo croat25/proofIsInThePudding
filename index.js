@@ -74,8 +74,15 @@ const filteredArray = newArray.reduce((acc, current) => {
     }
 }, []);
 
+fs.writeFile ("filteredArrayWithoutDupsJustInCase.json", JSON.stringify(filteredArray), function(err) {
+    if (err) throw err;
+    console.log('complete');
+    }
+);
+
+
+
 // remove all not operating from sort list
-let notOperatingAnymore = 0;
 let newArrayFromFiltered = [];
 for(let i = 0; i < filteredArray.length; i++) {
     const convertDate = new Date(filteredArray[i].data_end_date);
@@ -84,6 +91,13 @@ for(let i = 0; i < filteredArray.length; i++) {
         newArrayFromFiltered.push(filteredArray[i]);
     }
 }
+
+
+fs.writeFile ("filteredArrayWithAllNonOperatingRemoved.json", JSON.stringify(newArrayFromFiltered), function(err) {
+    if (err) throw err;
+    console.log('complete');
+    }
+);
 
 console.log("New array length is"+ newArrayFromFiltered.length);
 
