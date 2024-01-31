@@ -161,7 +161,6 @@ for(let i = 0; i < listOfYearsToWorkWith.length; i++) {
     const percentage = backToJsonObjectWithAirport[workingYear]/backToJsonObject[workingYear];
     const amountOfGaugesAddedVsAllYearsPreviouslyCombined =  backToJsonObject[workingYear]/totalPerYear;
     console.log("===================================================");
-    console.log("not including all decomissioned ones which so happen to be ones not at airport XD");
     console.log("Running Total is " + totalPerYear);
     console.log("Working Year is " + workingYear);
     console.log("The percentage of temparture gauges placed at airport or similar in working year " + (percentage * 100));
