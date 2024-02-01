@@ -84,15 +84,23 @@ fs.writeFile ("filteredArrayWithoutDupsJustInCase.json", JSON.stringify(filtered
 
 // remove all not operating from sort list
 let newArrayFromFiltered = [];
+let remainderArray = [];
 for(let i = 0; i < filteredArray.length; i++) {
     const convertDate = new Date(filteredArray[i].data_end_date);
     if(convertDate.getFullYear() > 2022)
     {
         newArrayFromFiltered.push(filteredArray[i]);
     }
+    else {
+        remainderArray.push(filteredArray[i]);
+    }
 }
 
-
+fs.writeFile ("allGaugesThatHveBeenTurnedOffLEtsSee.json", JSON.stringify(remainderArray), function(err) {
+    if (err) throw err;
+    console.log('complete');
+    }
+);
 fs.writeFile ("filteredArrayWithAllNonOperatingRemoved.json", JSON.stringify(newArrayFromFiltered), function(err) {
     if (err) throw err;
     console.log('complete');
