@@ -180,5 +180,5 @@ for(let i = 0; i < listOfYearsToWorkWith.length; i++) {
     console.log("The percentage of temparture gauges placed at airport or similar in working year " + (percentage * 100));
     console.log("The amount of added compare to existing ones " + (amountOfGaugesAddedVsAllYearsPreviouslyCombined * 100));
     console.log("Amount in this year that were added at airports " + (percentage * 100));
-    console.log("Amount of at airport vs not at airport" + (totalPerYearWIthAIrport/totalPerYear) * 100)
+    console.log("Amount of at airport vs not at airport" + (totalPerYearWIthAIrport/totalPerYear) * 100);
 }
