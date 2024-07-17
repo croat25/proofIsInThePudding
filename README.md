@@ -65,8 +65,6 @@ all operating gauges
 
 like i said proof is in the pudding global warming is a scam
 
-If you are techy enough to set this up, i posted the result in the file path below
-
 https://github.com/croat25/proofIsInThePudding/blob/main/LookInThisFile.txt
 
 and compare it with the charts, you will see what i mean
@@ -90,4 +88,4 @@ while 1600+ are at airpoints pushing the value up up up up up up up up up and aw
 PS dont forget about "cloud seeding" were they dump giant amounts of aluminum which gets  absorbed into the ground
 which makes the tempartures also hotter
 
-its a complex machine novice ppl wont get it
+
