@@ -90,7 +90,9 @@ which makes the tempartures also hotter
 
 
 C02 =  gas of life
+
 ⬆️CO2 =⬆️plant growth =⬇️ temps
+
 ⬇️CO2 =⬇️plant growth =⬆️ temps
 
 its grade 4 since
