@@ -89,3 +89,14 @@ PS dont forget about "cloud seeding" were they dump giant amounts of aluminum wh
 which makes the tempartures also hotter
 
 
+C02 =  gas of life
+⬆️CO2 =⬆️plant growth =⬇️ temps
+⬇️CO2 =⬇️plant growth =⬆️ temps
+
+its grade 4 since
+
+doesn't help the gauges used per 100 at airports have been 📈 over time then gauges not at airports
+
+concert = ⬆️
+fields = ⬇️
+
