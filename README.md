@@ -95,9 +95,7 @@ C02 =  gas of life
 
 ⬇️CO2 =⬇️plant growth =⬆️ temps
 
-its grade 4 since
-
-doesn't help the gauges used per 100 at airports have been 📈 over time then gauges not at airports
+its grade 8 science
 
 concert = ⬆️
 fields = ⬇️
